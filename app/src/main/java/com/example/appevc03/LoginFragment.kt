@@ -19,7 +19,7 @@ class LoginFragment : Fragment() {
     ): View? {
         _binding = FragmentLoginBinding.inflate(inflater,container,false )
 
-        
+
         return binding.root
     }
 
