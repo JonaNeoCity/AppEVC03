@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.appevc03.databinding.FragmentLoginBinding
 
 
@@ -53,4 +54,11 @@ class LoginFragment : Fragment() {
             return false
         }
     }
+
+    //METODO PARA IR AL OTRO FRAGMENTO "FORMULARIO" AL DARLE CLICK AL BOTON ACCEDER
+    private fun navigateToNextFragment() {
+
+        findNavController().navigate(R.id.action_loginFragment_to_formularioFragment)
+    }
+
 }
