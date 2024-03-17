@@ -40,12 +40,16 @@ class FormularioFragment : Fragment(), View.OnClickListener, AdapterView.OnItemS
 
     override fun onClick(v: View?) {
         binding.btnReservar.setOnClickListener {
+            registrarReserva()
             dirigirAInfoReservasFragment()
         }
     }
 
     private fun dirigirAInfoReservasFragment() {
-        findNavController().navigate(R.id.infoReservasFragment)
+        val bundle = Bundle().apply {
+            putStringArrayList("listaReservas", listaReservas)
+        }
+        findNavController().navigate(R.id.infoReservasFragment, bundle)
     }
 
     fun registrarReserva() {
