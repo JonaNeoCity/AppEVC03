@@ -19,4 +19,9 @@
         android:name="com.example.appevc03.InfoReservasFragment"
         android:label="@string/menu_inforeservas"
         tools:layout="@layout/fragment_info_reservas" />
+    <fragment
+        android:id="@+id/listadoFragment"
+        android:name="com.example.appevc03.ListadoFragment"
+        android:label="@string/menu_listado"
+        tools:layout="@layout/fragment_listado" />
 </navigation>
