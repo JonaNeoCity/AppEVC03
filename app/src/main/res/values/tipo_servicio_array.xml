@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="tipo_servicio">
-        <item>Seleccione</item>
+        <item>Seleccione un servicio</item>
         <item>Paseo de perros</item>
         <item>Grooming</item>
         <item>Spa Canino</item>
