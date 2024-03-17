@@ -16,4 +16,12 @@
     <string name="valetemail">"Ingrese su email "</string>
     <string name="valetcontraseña">Ingrese su contraseña</string>
     <string name="valbtnacceder">Acceder</string>
+    <string name="tvNombreLocal">Tu perro como en casa</string>
+    <string name="tvTituloDescrp">Sobre Carlos Ventura:</string>
+    <string name="tvDescripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus pulvinar ligula nec porta. Aliquam viverra magna risus, vel tincidunt elit hendrerit quis.</string>
+    <string name="tvTituloAlojam">Descripción de Alojamiento</string>
+    <string name="tvTituloForm">CONFIRMA TU RESERVA</string>
+    <string name="btnReservar">Reservar Ahora</string>
+    <string name="etdTituloIngreso">Fecha de Ingreso</string>
+    <string name="edtTituloSalida">Fecha de Salida</string>
 </resources>

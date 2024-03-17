@@ -58,7 +58,7 @@ class LoginFragment : Fragment() {
     //METODO PARA IR AL OTRO FRAGMENTO "FORMULARIO" AL DARLE CLICK AL BOTON ACCEDER
     private fun navigateToNextFragment() {
 
-        findNavController().navigate(R.id.action_loginFragment_to_formularioFragment)
+        findNavController().navigate(R.id.formularioFragment)
     }
 
 }

@@ -9,4 +9,9 @@
         android:name="com.example.appevc03.LoginFragment"
         android:label="@string/menu_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/formularioFragment"
+        android:name="com.example.appevc03.FormularioFragment"
+        android:label="fragment_formulario"
+        tools:layout="@layout/fragment_formulario" />
 </navigation>
