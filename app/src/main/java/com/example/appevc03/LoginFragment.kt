@@ -31,7 +31,7 @@ class LoginFragment : Fragment() {
 
 
             if (isValidCredentials(username, password)) {
-
+                navigateToNextFragment()
             } else {
                 Toast.makeText(requireContext(), "Datos Incorrectos", Toast.LENGTH_SHORT).show()
             }

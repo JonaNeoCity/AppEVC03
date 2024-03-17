@@ -12,6 +12,6 @@
     <fragment
         android:id="@+id/formularioFragment"
         android:name="com.example.appevc03.FormularioFragment"
-        android:label="fragment_formulario"
+        android:label="@string/menu_formulario"
         tools:layout="@layout/fragment_formulario" />
 </navigation>
