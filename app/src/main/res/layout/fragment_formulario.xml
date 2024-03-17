@@ -136,7 +136,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/etdIngreso"
+        android:id="@+id/etdFechaIngreso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -149,7 +149,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/edtSalida"
+        android:id="@+id/etdFechaSalida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -158,7 +158,7 @@
         android:inputType="date"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/etdIngreso"
+        app:layout_constraintTop_toBottomOf="@+id/etdFechaIngreso"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -171,7 +171,7 @@
         app:icon="@drawable/ic_email"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/edtSalida" />
+        app:layout_constraintTop_toBottomOf="@+id/etdFechaSalida" />
 
     <ImageView
         android:id="@+id/imageView7"

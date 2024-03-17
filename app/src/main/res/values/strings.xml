@@ -26,4 +26,5 @@
     <string name="edtTituloSalida">Fecha de Salida</string>
     <string name="menu_formulario">"Formulario de Reserva"</string>
     <string name="tvTituloReservas">Reservas Realizadas</string>
+    <string name="menu_inforeservas">Lista de Reservas</string>
 </resources>
