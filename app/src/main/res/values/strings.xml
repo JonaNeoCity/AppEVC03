@@ -12,8 +12,19 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="menu_login">"Iniciar Sesion "</string>
-    <string name="valetemail">"Ingrese su email "</string>
+    <string name="menu_login">"Iniciar Sesión"</string>
+    <string name="valetemail">"Ingrese su nombre"</string>
     <string name="valetcontraseña">Ingrese su contraseña</string>
     <string name="valbtnacceder">Acceder</string>
+    <string name="tvNombreLocal">Tu perro como en casa</string>
+    <string name="tvTituloDescrp">Sobre Carlos Ventura:</string>
+    <string name="tvDescripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus pulvinar ligula nec porta. Aliquam viverra magna risus, vel tincidunt elit hendrerit quis.</string>
+    <string name="tvTituloAlojam">Descripción de Alojamiento</string>
+    <string name="tvTituloForm">CONFIRMA TU RESERVA</string>
+    <string name="btnReservar">Reservar Ahora</string>
+    <string name="etdTituloIngreso">Fecha de Ingreso</string>
+    <string name="edtTituloSalida">Fecha de Salida</string>
+    <string name="menu_formulario">"Formulario de Reserva"</string>
+    <string name="tvTituloReservas">Reservas Realizadas</string>
+    <string name="menu_inforeservas">Lista de Reservas</string>
 </resources>

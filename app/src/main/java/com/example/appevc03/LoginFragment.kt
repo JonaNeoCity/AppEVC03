@@ -28,10 +28,8 @@ class LoginFragment : Fragment() {
             val username = binding.etemail.text.toString()
             val password = binding.etcontraseA.text.toString()
 
-
-
             if (isValidCredentials(username, password)) {
-
+                navigateToNextFragment()
             } else {
                 Toast.makeText(requireContext(), "Datos Incorrectos", Toast.LENGTH_SHORT).show()
             }
@@ -44,21 +42,15 @@ class LoginFragment : Fragment() {
     //VALIDANDO CAMPOS POR EMAIL Y CONTRASEÑA
     private fun isValidCredentials(username: String, password: String): Boolean {
 
-        val validUsername = "jonathan@idat.edu.pe"
+        val validUsernames = listOf("Jonathan", "Angel", "Julio")
 
-        if (username == validUsername) {
-
-            return password == "SYS123"
-
-        } else {
-            return false
-        }
+        return validUsernames.contains(username) && password == "SYS123"
     }
 
     //METODO PARA IR AL OTRO FRAGMENTO "FORMULARIO" AL DARLE CLICK AL BOTON ACCEDER
     private fun navigateToNextFragment() {
 
-        findNavController().navigate(R.id.action_loginFragment_to_formularioFragment)
+        findNavController().navigate(R.id.formularioFragment)
     }
 
 }
