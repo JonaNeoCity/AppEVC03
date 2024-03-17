@@ -65,10 +65,10 @@ class FormularioFragment : Fragment(), AdapterView.OnItemSelectedListener {
 
     fun registrarReserva() {
         if(validarFormulario()) {
-            val infoReserva = "Servicio: " + tiposervicio + "\nCantidad: " +
+            val infoReserva = "\nServicio: " + tiposervicio + "\nCantidad: " +
                     cantidadperro + "\nFecha de Ingreso: " +
                     binding.etdFechaIngreso.text.toString() + "\nFecha de Salida: " +
-                    binding.etdFechaSalida.text.toString()
+                    binding.etdFechaSalida.text.toString() + "\n"
             listaReservas.add(infoReserva)
             appMensaje.enviarMensaje(binding.root, "Reserva Registrada Correctamente", TipoMensaje.SUCCESFULL)
             setearControles()
